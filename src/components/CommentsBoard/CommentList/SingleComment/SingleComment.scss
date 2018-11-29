@@ -1,0 +1,55 @@
+.singleComment {
+  border-bottom: 1px solid #EBEBEB;
+  padding: 30.5px 8px 25.5px 20px;
+  .commentDetails {
+    position: relative;
+    .commentatorImageContainer {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      background-color: black;
+      display: inline-block;
+      vertical-align: middle;
+      overflow: hidden;
+      img {
+        width: 100%;
+      }
+    }
+    .commentatorName {
+      font-size: 14px;
+      color: #002C71;
+      padding-left: 11px;
+      letter-spacing: 0;
+      display: inline-block; vertical-align: middle;
+    }
+    .commentAdded {
+      position: absolute;
+      right: 10px;
+      top: 0;
+      opacity: 0.5;
+      font-size: 14px;
+      color: #002C71;
+      letter-spacing: 0;
+      line-height: 40px;
+    }
+  }
+  .commentContent {
+    padding: 0 50px 0 52px;
+    font-size: 14px;
+    color: #444444;
+    letter-spacing: 0;
+    line-height: 21px;
+  }
+  &:first-of-type {
+    padding-top: 0;
+  }
+}
+
+
+@media screen and (max-width: 520px) {
+  .singleComment  {
+    .commentContent {
+      padding: 0 15px 0 52px;
+    }
+  }
+}

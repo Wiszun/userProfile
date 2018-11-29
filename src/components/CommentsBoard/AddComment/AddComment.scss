@@ -1,0 +1,24 @@
+.addCommentContainer {
+  padding: 35px 25px 25px 25px;
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  #addComment {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #DBE0E8;
+    padding: 5px 5px 5px 0;
+    font-size: 18px;
+    color: #8298b9;
+  }
+}
+
+@media screen and (max-width: 520px) {
+    .addCommentContainer {
+      padding: 25px;
+    }
+}

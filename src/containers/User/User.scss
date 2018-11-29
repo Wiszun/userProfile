@@ -1,0 +1,26 @@
+.user {
+  width: 500px;
+  background-color: white;
+  margin: 50px auto 150px auto;
+  position: relative;
+  padding: 17px 17px 0 17px;
+  &::before {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 95px;
+    display: block;
+    content: '';
+    z-index: 0;
+    background: #002C71;
+    border-radius: 5px 5px 0 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .user {
+    width: 100%;
+    padding: 35px 17px 0 17px;
+  }
+}
